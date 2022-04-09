@@ -10,3 +10,5 @@
 #   false
 
 p "Enter an odd number:"
+num = gets
+p num.to_i.odd?
